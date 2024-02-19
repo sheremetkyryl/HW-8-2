@@ -1,0 +1,33 @@
+.timetable .monday li:hover {
+  color: red;
+}
+.timetable .thuesday li:active {
+  color: blueviolet;
+}
+.timetable .wednesday li:focus {
+  background-color: blue;
+}
+.timetable .thursday li:checked {
+  background-color: rgb(255, 0, 217);
+}
+.timetable .friday li:not(class) {
+  color: aqua;
+}
+
+.timetable .monday li:nth-child(odd) {
+  color: red;
+}
+.timetable .thuesday li:nth-child(odd) {
+  color: aqua;
+  background-color: blue;
+}
+.timetable .wednesday li:first-child {
+  background-color: greenyellow;
+}
+.timetable .thursday li:nth-child(3) {
+  color: gold;
+  background-color: orange;
+}
+.timetable .friday li:nth-child(-n + 2) {
+  color: violet;
+}
